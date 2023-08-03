@@ -1,0 +1,59 @@
+// Mobile window 375px
+.support{
+    width: 0;
+    height: 0;
+}
+.desktop-div{
+    margin-top: 40px;
+}
+.shopping-title {
+    margin-bottom: 120px;
+    font-size: 32;
+}
+.shopping-title-span {
+    color: var(--font-color-violet);
+}
+.shopping-none-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shopping-none-text {
+    width: 244px;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14;
+}
+// Tablet window 768px
+@media screen and (min-width: 768px){
+.shopping-title {
+margin-bottom: 140px;
+    font-size: 48;
+}
+.shopping-none-text {
+    width: 349px;
+    margin-bottom: 20px;
+    font-size: 18;
+}
+.shopping-none-img {
+    width: 322px;
+}
+}
+// Desktop window 1440px
+@media screen and (min-width: 1440px){
+    .desktop-div{
+        display: flex;
+    }
+.support {
+        background-color: violet;
+        width: 356px;
+        height: 474px;
+    }
+.shopping-title {
+    margin-left: 40px;
+}
+.shopping-none-div { 
+      margin-left: 355px;
+}
+};
+
